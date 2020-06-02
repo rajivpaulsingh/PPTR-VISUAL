@@ -29,4 +29,14 @@ describe('Visual Regression Testing', () => {
             failureThreshold: 500
         })
     })
+
+    it('Single element snapshot test', async function() {
+        await page.goto('https://www.example.com')
+        const h1 = await page.waitForSelector('h1')
+        const image = await h1.screenshot()
+        expect(image).toMatchImageSnapshot( {
+            failureThreshold: 'percent',
+            failureThreshold: 0.01
+        })
+    })
 })
