@@ -17,4 +17,6 @@
     - Full page snapshot comparison
     - Single element snapshot comparison
     - Mobile snapshot comparison
-    - Tablet snapshot comparison    
+    - Tablet snapshot comparison
+8. Use percy.io for visual testing. Pretty good too. Signup and export the token in the project
+9. npm install @percy/puppeteer

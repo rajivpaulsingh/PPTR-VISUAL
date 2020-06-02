@@ -62,7 +62,7 @@ describe('Visual Regression Testing', () => {
         })
     })
 
-    test.only('Remove element before snapshot test', async function() {
+    it('Remove element before snapshot test', async function() {
         await page.goto('https://www.example.com')
         await page.evaluate(() => {  //this is the code to used evaluate function to hide the element
             ;(document.querySelectorAll('h1') || []).forEach(el => el.remove())
