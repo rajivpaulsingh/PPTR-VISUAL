@@ -12,4 +12,9 @@
      "trailingComma": "es5"
     }
 5. Added node scripts to run the tests
-6. Jest config setup for visual testing    
+6. Jest config setup for visual testing
+7. Write tests for:
+    - Full page snapshot comparison
+    - Single element snapshot comparison
+    - Mobile snapshot comparison
+    - Tablet snapshot comparison    
