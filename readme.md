@@ -11,3 +11,5 @@
      "arrowParens": "avoid",
      "trailingComma": "es5"
     }
+5. Added node scripts to run the tests
+6. Jest config setup for visual testing    
